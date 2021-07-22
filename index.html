@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    
+    <!-- Header Section starts -->
+    <header class="header">
+        <div class="user">
+            <img class="user__img" src="images/user.jpg" alt="User">
+            <h3 class="user__name">Anoop Singh</h3>
+            <p class="user__post">Front End Developer</p>
+        </div>
+        
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link navbar__link--home" href="#home">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link navbar__link--about" href="#about">About Me</a></li>
+                <li class="navbar__item"><a class="navbar__link navbar__link--education" href="#education">Education</a></li>
+                <li class="navbar__item"><a class="navbar__link navbar__link--projects" href="#projects">Projects</a></li>
+                <li class="navbar__item"><a class="navbar__link navbar__link--contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- menu -->
+    <div class="menu fas fa-bars"></div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <h3 class="home__greeting">HI THERE !</h3>
+        <h1 class="home__intro home__intro--prim">I'M <span class="home__intro home__intro--scnd">Anoop Singh</span></h1>
+        <p class="home__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat hic quibusdam commodi consequuntur quas magni iure culpa inventore quasi consectetur?</p>
+        <a href="#about"><button class="btn"> About me <i class="btn--icon fas fa-user"></i></button></a>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="about__heading"> <span class="about__heading--about">about</span> me </h1>
+        <div class="about__row">
+            <div class="about__info">
+                <h3><span>name : </span> Anoop Singh </h3>
+                <h3><span>age : </span> 22 </h3>
+                <h3><span>Qualification : </span> B.Voc(Web Development ) </h3>
+                <h3><span>post : </span> Front End Developer</h3>
+                <h3><span>language : </span>English, Hindi </h3>
+                <a href="resume/Resume_Anoop.pdf"><button class="btn"> download CV <i class="btn--icon fas fa-download"></i></button></a>
+            </div>
+
+            <!-- <div class="counter">
+                <div class="box">
+                    <span>2+</span>
+                    <h3>years of experience</h3>
+                </div>
+            </div> -->
+
+            <!-- skills -->
+            <div class="skill">
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line javascript"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>Sass</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line sass"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>ReactJs</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="line reactjs"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>Wordpress</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line wordpress"></div>
+                </div>
+                <div class="skill__bars">
+                    <div class="skill__info">
+                        <span>Python</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- education section starts -->
+
+    <section class="education" id="education">
+        <h1> my <span>Education</span></h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h4>B.Voc(WD) - 9.4 cgpa</h4>
+                <p>J.C.Bose University of Science And Technology, YMCA</p>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h4>12th - 80%</h4>
+                <p>A.D.Sr.Sec.school</p>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h4>10th - 8.4 cgpa</h4>
+                <p>A.D.Sr.Sec.school</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- education section ends -->
+    
+    <!-- project starts here -->
+
+    <section class="projects" id="projects">
+        <h1> my <span>Projects</span></h1>
+
+        <div class="box-container">
+            
+            <div class="box">
+                <a href="http://symstech.com"><img src="images/symstech.jpg" alt="symstech.com"></a>
+            </div>
+
+            <div class="box">
+                <a href="https://symstech.com/games/"><img src="images/game.jpg" alt="games"></a>
+            </div>
+
+            <!-- <div class="box">
+                <img src="images/user.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/user.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/user.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <img src="images/user.jpg" alt="">
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- projects end here -->
+
+    <!-- contact starts here -->
+
+    <section class="contact" id="contact">
+        <h1><span>contact</span> me </h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>anupsgh7714@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+91 8744881664</h3>
+                    <!-- <h3><i class="fas fa-phone"></i></h3> -->
+                    <h3><i class="fas fa-map-marker-alt"></i>haryana, India, 121001</h3>
+                </div>
+                
+            </div>
+
+            <!-- <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+            </form> -->
+        </div>
+    </section>
+
+    <!-- contact ends here -->
+
+
+    <!-- custom script liink -->
+    <script src="js/script.js"></script>
+</body>
+</html>
