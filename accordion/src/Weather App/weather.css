@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Gideon Roman', cursive;
+    color: #2C3A47;
+    
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #58B19F;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+
+.card{
+    width: 20rem;
+    height: 25rem;
+    border: 1px solid #55E6C1;
+    border-radius: .5rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    background-color: #55E6C1;
+}
+
+input{
+    width: 13rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: aliceblue;
+    margin: 3rem 0;
+}
+
+.city_temp{
+    font-size: 2.3rem;
+}
+
+.city_name{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.temp{
+    padding: 2.5rem 0rem;
+    font-size: 1rem;
+}
+
+.temp span{
+    margin: 0 .2rem;
+}
