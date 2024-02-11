@@ -273,9 +273,15 @@ body {
 .about .about__row .skill .sass::before {
   width: 50%;
 }
+.about .about__row .skill .tailwind::before {
+  width: 50%;
+}
 
 .about .about__row .skill .reactjs::before {
-  width: 30%;
+  width: 70%;
+}
+.about .about__row .skill .nodejs::before {
+  width: 70%;
 }
 
 .about .about__row .skill .wordpress::before {
